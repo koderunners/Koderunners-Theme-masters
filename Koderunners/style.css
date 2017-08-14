@@ -1,0 +1,78 @@
+/*
+Theme Name: KodeRunners Actual MotherFucker
+Author: Soumik Rakshit
+Author URI: http://soumikrakshitblog.wordpress.com
+Version: 1.0
+*/
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	color: #333;
+}
+
+a:link,
+a:visited {
+	color: #006ec3;
+}
+
+p {
+	line-height: 1.65em;
+}
+
+article.post {
+	border-bottom: 2px dotted #bbbbbb;
+	display: inline-block;
+}
+
+article.post:last-of-type {
+	border-bottom: none;
+}
+
+/* Header */
+.site-header {
+	/*border-bottom: 2px solid #999;*/
+	display: inline-flex;
+}
+
+/* Footer */
+.site-footer {
+	margin-top: 30px;
+	border-top: 2px solid #999;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: 17px;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 2px;
+    width: 12%;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a:active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+ul {
+	display: inline;
+	list-style: none;
+}
+
+.search {
+	margin: auto;
+	padding-left: 190%;
+}
